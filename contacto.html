@@ -22,11 +22,39 @@
     </header>
 
     <main>
-    <form>
-        <label>Ibon Bautista Baranda</label>
-        <label>XXXXXXXXX</label>
-        <label>ibonbautista@gmail.com</label>
-    </form>
+        <section id="contacto">
+            <form id="contact-form">
+                <fieldset>
+                    <legend>Datos de contacto</legend>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name">
+                    <label for="age">Edad</label>
+                    <input type="number" name="age" id="age">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                    <label for="language">Idioma</label>
+                    <select name="language" id="language">
+                        <option value="eus">Euskera</option>
+                        <option value="es">Castellano</option>
+                        <option value="en">English</option>
+                    </select>
+                    <div class="newsletter-input">
+                        <label for="subscribe">¿Quieres suscribirte a mi newsletter?</label>
+                        <input type="checkbox" name="subscribe" id="subscribe" >
+                    </div>
+                    <label >Tu equipo favorito</label>
+                    <div class="team-input">
+                        <label for="teathleticam">Athletic Club</label>
+                        <input type="radio" name="team" id="athletic" value="Athletic Club">
+                        <label for="real">Real Sociedad</label>
+                        <input type="radio" name="team" id="real" value="Real Sociedad">    
+                    </div>
+                </fieldset>
+                <label for="content">Escribe tu mensaje</label>
+                <textarea name="content" id="content" cols="30" rows="10"></textarea>
+
+            </form>
+        </section>
     </main>
 
 </body>
