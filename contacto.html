@@ -10,13 +10,12 @@
 <body>
     
     <header>
-        <p>PROYECTOS</p>
+        <p>CONTACTO</p>
         <nav>
             <ul id="nav-links">
-                <li class="nav-link"><a href="index.html">YO</li></a>
-                <li class="nav-link"><a href="experiencia.html">EXPERIENCIA</li></a>
-                <li class="nav-link"><a href="proyectos.html">PROYECTOS</li></a>
-                <li class="nav-link"><a href="contacto.html">CONTACTO</li></a>
+                <li class="nav-link"></li><a href="index.html">YO</a></li>
+                <li class="nav-link"></li><a href="experiencia.html">EXPERIENCIA</a></li>
+                <li class="nav-link"></li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </header>
@@ -24,38 +23,36 @@
     <main>
         <section id="contacto">
             <form id="contact-form">
-                <fieldset>
-                    <legend>Datos de contacto</legend>
                     <label for="name">Nombre</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name"></br>
                     <label for="age">Edad</label>
-                    <input type="number" name="age" id="age">
+                    <input type="number" name="age" id="age"></br>
                     <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email"></br>
                     <label for="language">Idioma</label>
                     <select name="language" id="language">
                         <option value="eus">Euskera</option>
                         <option value="es">Castellano</option>
                         <option value="en">English</option>
-                    </select>
-                    <div class="newsletter-input">
-                        <label for="subscribe">¿Quieres suscribirte a mi newsletter?</label>
-                        <input type="checkbox" name="subscribe" id="subscribe" >
-                    </div>
-                    <label >Tu equipo favorito</label>
-                    <div class="team-input">
-                        <label for="teathleticam">Athletic Club</label>
-                        <input type="radio" name="team" id="athletic" value="Athletic Club">
-                        <label for="real">Real Sociedad</label>
-                        <input type="radio" name="team" id="real" value="Real Sociedad">    
-                    </div>
-                </fieldset>
-                <label for="content">Escribe tu mensaje</label>
-                <textarea name="content" id="content" cols="30" rows="10"></textarea>
-
+                    </select></br>
+                <div class="newsletter-input">
+                    <input type="checkbox" name="subscribe" id="subscribe" >
+                    <label for="subscribe">¿Quieres suscribirte a mi newsletter?</label>
+                </div></br>
+                <label >Tu equipo favorito:</label></br></br>
+                    <input type="radio" name="team" id="athletic" value="Athletic Club">
+                    <label for="teathleticam">Athletic Club</label>
+                    <input type="radio" name="team" id="real" value="Real Sociedad">    
+                    <label for="real">Real Sociedad</label>
             </form>
         </section>
     </main>
 
+    <footer>
+        <ul class="contact-list">
+            <li class="contact-link"><a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+            <li class="contact-link"><a href="https://github.com"><i class="fa-brands fa-github"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
